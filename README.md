@@ -11,8 +11,8 @@
 - Org accounts can be be sponsored by any user but must be confirmed by the previous sponsor.
 - Online prayer rooms can be hosted by any member.
 - Any member can join a prayer room; Joins must be confirmed by event host.
-- If member is affiliated with a sister church of the host, this will be displayed on the ask to join dialouge.
-- Virtual events will be catalogued and listed in the host account page.
+- If member is affiliated with a sister church of the host, this will be displayed on the ask to join dialogue.
+- Virtual events will be cataloged and listed in the host account page.
 
 ## Development
 [**Getting Started**](https://github.com/mhackersu/minovina/blob/main/docs/README.md)
