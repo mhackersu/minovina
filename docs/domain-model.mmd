@@ -1,0 +1,49 @@
+erDiagram
+    Member {
+        string id
+        string name
+        boolean isOrphan
+        boolean isFostered
+        boolean isAdopted
+    }
+
+    OrgAccount {
+        string id
+        string name
+        string type "Physical or Online"
+    }
+
+    Prayer {
+        string id
+        text content
+        boolean isAnonymous
+        string createdBy
+    }
+
+    PrayerRoom {
+        string id
+        string hostId
+    }
+
+    VirtualEvent {
+        string id
+        string name
+        string hostId
+        date eventDate
+    }
+
+    Member ||--o{ Prayer : creates
+    Member ||--o{ PrayerRoom : hosts
+    Member ||--o{ VirtualEvent : hosts
+    Member ||--o{ OrgAccount : sponsors
+    Member }o--|| OrgAccount : belongs to
+
+    OrgAccount ||--o{ Member : has many
+    OrgAccount }o--o| OrgAccount : "sponsored by"
+
+    PrayerRoom ||--o{ Member : joins
+    PrayerRoom ||--|| Member : confirms
+
+    VirtualEvent ||--o{ Member : attends
+    VirtualEvent ||--|| PrayerRoom : catalogs
+
