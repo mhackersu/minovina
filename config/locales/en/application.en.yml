@@ -1,10 +1,10 @@
 en:
   application:
     name: Mi Novina
-    owner: Unidentified Developer
-    description: "You can update this description in `config/locales/en/application.en.yml`."
-    keywords: mi novina seo keywords
-    support_email: change.me@localhost
+    owner: github.com/mhackersu
+    description: "Mi Novina; We Newspaper - Online Prayer Community"
+    keywords: community, prayer, novina
+    support_email: mhacekrsu@gmail.com
     key: mi_novina
   webhooks/outgoing/endpoints:
     fields:
