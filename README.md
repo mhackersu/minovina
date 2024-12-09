@@ -14,3 +14,5 @@
 - If member is affiliated with a sister church of the host, this will be displayed on the ask to join dialouge.
 - Virtual events will be catalogued and listed in the host account page.
 
+## Development
+[**Getting Started**](https://github.com/mhackersu/minovina/blob/main/docs/README.md)
