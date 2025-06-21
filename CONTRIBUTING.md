@@ -1,12 +1,12 @@
-# Contributing to Supabase Flutter Template
+# Contributing to AtlastCity
 
-Thank you for your interest in contributing to the Supabase Flutter Template! We welcome contributions from everyone and are grateful for any help you can provide.
+Thank you for your interest in contributing to AtlastCity! We welcome contributions from everyone and are grateful for any help you can provide.
 
 ## How to Contribute
 
 ### Reporting Issues
 
-If you find any bugs or have a feature request, please open an issue on GitHub using the [issue tracker](https://github.com/devtodollar/supabase-flutter-template/issues). Before creating a new issue, please check to make sure it hasn't already been reported.
+If you find any bugs or have a feature request, please open an issue on GitHub using the issue tracker. Before creating a new issue, please check to make sure it hasn't already been reported.
 
 When submitting a bug report, please include:
 - A brief description of the issue

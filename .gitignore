@@ -1,5 +1,4 @@
 .env
-
-# misc
+.env.local
 .DS_Store
 .obsidian
